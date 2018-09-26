@@ -1,0 +1,85 @@
+body { margin: 0; padding: 0; color: #353535; font-family: Arial, Helvetica, sans-serif; }
+
+ul, li{ list-style-type: none; margin:0px; padding:0px; }
+p, em, h1, h2, h3, h4, h5, h6,h7, br { margin: 0; padding: 0; font-weight:normal; }
+a img { border:none; }
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.header{ height:70px; border-bottom:1px solid #7a7a7a;background-color:#fff;}
+.center_header{width:1024px; margin:auto}
+.logo{ float:left; padding:20px 0 0 0;}
+.menu{ float:right; padding:30px 0 0 0;}
+.menu ul li{ display:inline; padding-left:15px; font-size:18px}
+.link{ color:#7a7a7a; text-decoration:none; font-weight:bold}
+.link:hover{ color:#c4c4c4;}
+.selected{ color:#c4c4c4; text-decoration:none ; font-weight:bold;}
+
+.index_container{ background-image:url('https://tsergium.ro/theme/tsergium/img/bg_02.jpg'); background-repeat:no-repeat; background-position:right; height:620px; padding:280px 0 0 0;border-top:1px solid #a4a4a4}
+.text{ width:1024px; margin:auto;}
+.text h1{ font-size:42px; font-weight:100;}
+.text p{ font-size:24px; padding-top:20px; line-height:1.4em;}
+
+.text1 h1{ font-size:38px; font-weight:100;}
+.text1 p{ font-size:18px; padding-top:20px; line-height:1.4em;}
+
+
+.container1{border-top:1px solid #a4a4a4; }
+.midle_container{width:1024px; margin:auto;}
+.secund_header{ height:50px; width:1024px; margin:auto}
+
+.secund_header1{ height:95px; width:1024px; margin:auto; padding:20px 0 0 0; border-bottom:1px solid #a4a4a4;}
+.secund_header1 h1{ font-size:38px;}
+.secund_header1 h2{ font-size:18px; padding-top:7px}
+.left_header{ float:left}
+.right_header{ float:right; width:76px;}
+.right_header ul li{ float:left}
+
+.header_modul{ border-bottom:1px solid #a4a4a4; font-size:18px; font-weight:bold; padding:0 0 20px 0}
+.header_modul1{ font-size:38px; font-weight:bold;padding-top:120px }
+.text_modul1{ font-size:14px; width:500px;}
+.text_modul1 p{ padding-top:15px; line-height:1.3em}
+
+.modul_descriere2{ padding-bottom:100px}
+.header_modul2{ font-size:38px; font-weight:bold;padding-top:20px }
+.text_modul2{ font-size:14px; width:500px;}
+.text_modul2 p{ padding-top:15px; line-height:1.3em}
+
+.text_modul{ font-size:14px; padding-top:35px}
+.text_modul p{ padding-top:15px; line-height:1.3em}
+
+.left_col1{ float:left; width:512px; margin:50px 0 0 0}
+.left_col1 img{  margin-left:60px; margin-top:50px}
+.left_col{ float:left; width:621px; margin:50px 0 0 0}
+.left_col img{ margin-bottom:30px}
+.left_col ul{ padding-top:30px}
+.left_col ul li{ line-height:1.4em; font-size:18px}
+
+.right_col1{ float:right; width:512px; margin:50px 0 0 0}
+.right_col1 img{ float:right; margin-right:60px; margin-top:50px}
+.right_col{ float:right; width:360px; margin:50px 0 0 0}
+.right_col ul{ float:right}
+.right_col ul li{ margin-bottom:15px}
+
+.center_footer{ width:1024px; font-size:14px; margin:auto; padding-top:30px}
+.footer1{ background-color:#f0f0f0; height:200px}
+
+.grei_bg{ background-color:#f0f0f0;}
+.bold{ font-weight:bold}
+.pt40{ padding-top:40px}
+.pt20{ padding-top:20px}
+.pb20{ padding-bottom:20px}
+.pb50{ padding-bottom:50px}
+.pb75{ padding-bottom:75px}
+.f1{ width:344px; border-radius:5px; border:1px solid #a4a4a4; margin:0; padding:8px; font-size:18px; color:#c4c4c4}
+.txt{width:344px; border-radius:5px; border:1px solid #a4a4a4; margin:0; padding:8px; height:180px}
+.submit{ background-color:#de0211; color:#fff; font-size:18px; border:none; padding:8px 14px; border-radius:5px; cursor:pointer}
+.submit1{ background-color:#de0211; color:#fff; font-size:14px; border:none; padding:8px 10px; border-radius:5px; cursor:pointer; margin-top:35px}
+.clear{ height:1px; width:1024px; clear:both}
+.hr{ border-top:1px solid #a4a4a4; clear:both; height:1px; width:1024px; margin:auto}
+
+
+/* BEGIN: I don't fear change */
+.mr10{margin-right: 10px;}
+.s_img{height: 150px;}
+/* END: I don't fear change */

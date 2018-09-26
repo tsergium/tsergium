@@ -1,0 +1,30 @@
+{
+  "name": "tsergium",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsergium/tsergium.git"
+  },
+  "author": "Sergiu Tomsa <tsergium@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsergium/tsergium/issues"
+  },
+  "homepage": "https://github.com/tsergium/tsergium#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.0",
+    "node-sass": "^4.9.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
