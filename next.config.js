@@ -3,6 +3,7 @@ module.exports = withSass();
 
 exports.exportPathMap = () => ({
   "/": { page: "/" },
+  "/portfolio": { page: "/portfolio" },
   "/contact": { page: "/contact" },
   "/about": { page: "/about" },
 });
