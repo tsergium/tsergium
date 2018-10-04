@@ -10,3 +10,9 @@ node_modules/
 
 # Next directory
 .next
+
+# IDE config folder
+.idea
+
+# Out directory
+out
