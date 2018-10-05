@@ -20,7 +20,6 @@ class Contact extends Component {
                 <li>Phone</li>
                 <li className="bold pb20">+40 0745 688 027</li>
                 <li>Or using the contact form on your right.</li>
-                <li></li>
               </ul>
 
             </div>
@@ -30,7 +29,6 @@ class Contact extends Component {
                   <input
                     name="name"
                     type="text"
-                    value=""
                     placeholder="Name"
                     className="f1"
                     required=""
@@ -40,7 +38,6 @@ class Contact extends Component {
                   <input
                     name="email"
                     type="email"
-                    value=""
                     placeholder="Email"
                     className="f1"
                     required=""
@@ -51,7 +48,6 @@ class Contact extends Component {
                     name="message"
                     cols=""
                     rows=""
-                    value=""
                     placeholder="Message"
                     className="txt"
                     required=""
