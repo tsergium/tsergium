@@ -16,3 +16,6 @@ node_modules/
 
 # Out directory
 out
+
+# Misc
+deploy.sh

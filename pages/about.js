@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Layout from '../components/layout';
+import Link from "next/link";
 
 class About extends Component {
   render() {
@@ -41,9 +42,10 @@ class About extends Component {
                       Prestashop.
                     </strong>
                   </p>
-                  <form action="/application/index/contact" method="get">
-                    <input name="" type="submit" value="Send Me an Email" className="submit1" />
-                  </form>
+                  <br /><br />
+                  <Link prefetch href="/contact">
+                    <a href="/contact" className="submit1">Send Me an Email</a>
+                  </Link>{' '}
                 </div>
               </div>
             </div>
