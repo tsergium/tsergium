@@ -22,6 +22,7 @@
   "homepage": "https://github.com/tsergium/tsergium#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "aos": "^3.0.0-beta.6",
     "next": "^7.0.1",
     "node-sass": "^4.9.3",
     "react": "^16.5.2",
