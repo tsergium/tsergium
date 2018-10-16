@@ -21,22 +21,22 @@ const Header = () => (
       </a>
       <div className="menu nav-collapse collapse">
         <ul>
-          <li>
+          <li data-aos="fade-in">
             <Link prefetch href="/about">
               <a href="/about" className="link">About me</a>
             </Link>{' '}
           </li>
-          <li>
+          <li data-aos="fade-in">
             <Link prefetch href="/portfolio">
               <a href="/portfolio" className="link">Portfolio</a>
             </Link>{' '}
           </li>
-          <li>
+          <li data-aos="fade-in">
             <Link prefetch href="/tutorials">
               <a href="/tutorials" className="link">Tutorials</a>
             </Link>{' '}
           </li>
-          <li>
+          <li data-aos="fade-in">
             <Link prefetch href="/contact">
               <a href="/contact" className="link">Contact</a>
             </Link>{' '}
