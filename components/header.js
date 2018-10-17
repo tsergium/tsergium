@@ -7,6 +7,7 @@ const Header = () => (
   <div className="header">
     <Head>
       <title>Sergiu Tomsa | tsergium.ro</title>
+      <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500|Roboto:300,400,700&amp;subset=latin-ext" rel="stylesheet" />
     </Head>
     <div className="center_header navbar">
       <Link prefetch href="/">
