@@ -1,18 +1,10 @@
-body { margin: 0; padding: 0; color: #353535; font-family: 'Roboto', Arial, Helvetica, sans-serif; }
-
-ul, li{ list-style-type: none; margin:0px; padding:0px; }
-p, em, h1, h2, h3, h4, h5, h6,h7, br { margin: 0; padding: 0; font-weight:normal; }
-a img { border:none; }
-
-.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-
 .header{ height:70px; border-bottom:1px solid #7a7a7a;background-color:#fff;}
 .center_header{width:1024px; margin:auto}
 .logo{ float:left; padding:20px 0 0 0;}
 .menu{ float:right; padding:30px 0 0 0;}
 .menu ul li{ display:inline; padding-left:15px; font-size:18px}
-.link{ color:#7a7a7a; text-decoration:none; font-weight:bold}
-.link:hover{ color:#c4c4c4;}
+.link a{ color:#7a7a7a; text-decoration:none; font-weight:bold}
+.link a:hover{ color:#c4c4c4;}
 .selected{ color:#c4c4c4; text-decoration:none ; font-weight:bold;}
 
 .index_container{ background-image:url('/static/images/bg_02.jpg'); background-repeat:no-repeat; background-position:right; height:620px; padding:280px 0 0 0;border-top:1px solid #a4a4a4}
@@ -64,7 +56,6 @@ a img { border:none; }
 .center_footer{ width:1024px; font-size:14px; margin:auto; padding-top:30px}
 .footer1{ background-color:#f0f0f0; height:200px}
 
-.grei_bg{ background-color:#f0f0f0;}
 .bold{ font-weight:bold}
 .pt40{ padding-top:40px}
 .pt20{ padding-top:20px}
@@ -83,3 +74,44 @@ a img { border:none; }
 .mr10{margin-right: 10px;}
 .s_img{height: 150px;}
 /* END: I don't fear change */
+
+* { margin: 0; padding: 0; }
+a { text-decoration: none; }
+img { border: none; }
+.clear { clear: both; }
+.hidden { display: none; }
+.position-relative { position: relative; }
+.container-table { display: table; height: 100%; }
+.vertical-center-row { display: table-cell; vertical-align: middle; align: center; }
+li{ list-style-type:none;}
+
+html, body { height:100%; font-family: 'Roboto', sans-serif; font-size:16px; font-weight:300 }
+h1, h2, h3 {font-family: 'Roboto', sans-serif; position:relative; padding:0; margin:0; font-weight:300}
+
+.grey_bg {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #f0f0f0;
+  transform-origin: top right;
+  transform: skew(0deg, -3deg);
+}
+
+.grey_bg_content {
+  transform-origin: top right;
+  transform: skew(0deg, 3deg);
+}
+
+.player {
+  border-radius: 15px 0 15px;
+  overflow: hidden;
+}
+
+.footer {
+  bottom: -20px;
+  width: 100%;
+  position: fixed;
+}
+
+.strong {
+  font-weight: bold;
+}
