@@ -1,0 +1,182 @@
+* { margin: 0; padding: 0; }
+a { text-decoration: none; }
+img { border: none; }
+.clear { clear: both; }
+.hidden { display: none; }
+.position-relative { position: relative; }
+.container-table { display: table; height: 100%; }
+.vertical-center-row { display: table-cell; vertical-align: middle; align: center; }
+li{ list-style-type:none;}
+
+html, body { height:100%; font-family: 'Roboto', sans-serif; font-size:16px; font-weight:300 }
+h1, h2, h3 {font-family: 'Roboto', sans-serif; position:relative; padding:0; margin:0; font-weight:300}
+
+
+/*set*/
+h3{font-size:36px; margin:40px 0 0 0}
+
+
+
+.i4ewOd-pzNkMb-haAclf{ display:none}
+.mt-100{margin-top: -100px}
+.mt-140{margin-top: -140px}
+.mt15{ margin-top: 15px}
+.mt20{ margin-top: 20px}
+.mt40{ margin-top: 40px}
+.mt60{ margin-top: 60px}
+.mt80{ margin-top: 80px}
+.mt120{ margin-top: 120px}
+
+.mb20{margin-bottom: 20px}
+.mb40{margin-bottom: 40px}
+.mb60{margin-bottom: 60px}
+.mb80{margin-bottom: 80px}
+.mb140{margin-bottom: 140px}
+
+.ml10{ margin-left:10px}
+.ml15{ margin-left:15px}
+.ml85{ margin-left:85px}
+
+
+
+.strong{ font-weight: bold}
+
+.bg-skew{transform-origin: top right; transform: skew(0deg, -4deg); padding-top: 100px; padding-bottom: 50px}
+.content{transform-origin: top right; transform: skew(0deg, 4deg);}
+.bg-skew-light{background-color: #f3f3f3}
+
+/*banners*/
+.bg-set{ background-repeat:no-repeat; background-size: cover}
+.bg-set h1{ font-weight:bold; color:#fff; text-shadow: 2px 2px 2px #000; text-transform:uppercase; }
+.bg_crud{ background-image:url("/static/images/tutorial-banner/crud.jpg")}
+
+.bg_main{height: 500px}
+
+.banner-set{background-repeat:no-repeat; background-size: cover}
+.home-banner{background-image:url("/static/images/home-banner.jpg")}
+
+
+
+/*navigation*/
+.logo{ margin-top:10px; font-size:18px; font-weight:400}
+.logo a{color:#000; padding-top:15px}
+.logo a:hover{ color:#000; text-decoration: none }
+
+.navbar-default{ background: #f3f3f3; border: none}
+.navbar-nav>li{ text-transform: uppercase}
+
+.dropdown-menu{ background-color:#e7e7e7; box-shadow:none; border-radius:0; border:none}
+.dropdown-menu>li>a:hover{ background:none; color:#777}
+
+
+/*panel*/
+.panel-body{ padding:0}
+.panel-heading{ padding:5px 0}
+.panel-title{ text-transform:uppercase; font-size:16px}
+.panel{ background:none; border: none; box-shadow:none}
+
+
+/*icon*/
+.icon{ height:125px; margin:auto}
+
+/*footer*/
+.footer{ bottom: -20px; display: table-cell; width: 1%;  }
+
+.contact{}
+.contact form{ }
+.contact h4{ text-transform:uppercase; font-size:21px; margin-bottom:20px}
+.contact .form-control{ border-left:none; border-right:none; border-top:none; background:none; box-shadow:none; border-radius:0}
+.contact .bt-contact{ border:none; background-color:#333; color:#f3f3f3; padding:6px 10px }
+.contact textarea{resize: none}
+
+
+/*syntaxhighlighter*/
+.syntaxhighlighter .string{ color:#16B8E4}
+
+/*text-set tutorial*/
+.text-tutorial{}
+.text-tutorial h3{ margin-bottom:40px; margin-top:60px}
+.text-tutorial h5{ margin-bottom:20px; font-size:18px}
+.text-tutorial p{}
+.text-tutorial ul{ margin-left:20px; margin-top:20px}
+.text-tutorial li{ list-style:circle}
+
+/*modal galery*/
+.modal{position: fixed; top: 0; bottom: 0;  overflow: hidden;}
+
+.modal-content {position: absolute; top: 0; right: 0; bottom: 0; left: 0; border: none!important; border-radius: 0; box-shadow: none;}
+.modal-body { position: absolute; top: 0; bottom: 0; width: 100%; overflow: auto; padding:0}
+
+.portofolio-set{ background-repeat:no-repeat; background-size: cover; background-position:center; height:100%}
+.portofolio-1{background-image:url("/static/images/portfolio/HelloFresh.jpg")}
+
+.midle-modal-left{ bottom:25px; position:fixed; padding:0 45px 0 20px}
+.midle-modal-left .hr{ border-bottom:2px solid #fff}
+.midle-modal-left h3{ margin-bottom:20px; margin-top:10px; color:#fff}
+.midle-modal-left p{ color:#fff}
+
+
+/*icon set*/
+.icon-set{ background-position:center; background-size:cover; float:left; height:30px; width:30px; }
+.icon-set:hover{height:32px; width:32px;}
+.close2{background-image:url("/static/images/icon/close.png"); }
+
+.icon-set-arow-big{ background-position:center; background-size:cover; float:right; height:15px; width:30px; }
+.right-arow-big{background-image:url("/static/images/icon/right-arow-big.png");}
+
+.icon-set-arow-big2{ background-position:center; background-size:cover; float:right; height:15px; width:30px; margin-top:4px }
+
+
+/*coment*/
+.media-object{ height:65px; width:65px; margin-right:10px}
+.media-heading{ font-weight:bold}
+.media-heading span{ font-size:14px; font-weight:lighter; padding-left:5px}
+
+@media (max-width: 750px) {
+  .portofolio{ margin-top:40px}
+  .text{text-align: justify;}
+  .bg-set h1{font-size:36px; margin-top:35%}
+
+  .heder-modal-right{ margin:25px 10px 0 0}
+
+  .modal-dialog { position: fixed; margin:0; height: 100%; width:100%; padding: 0;}
+  .midle-modal-right{ top:25%; position:fixed; padding:0 45px 0 20px}
+  .midle-modal-right h3{ margin-bottom:20px}
+  .midle-modal-right p{ text-align:justify; margin-bottom:20px}
+  .midle-modal-right a{color:#000;  opacity:0.7}
+  .midle-modal-right a:hover{text-decoration:none; opacity:1}
+  .midle-modal-right a:hover i{ margin-left:10px}
+
+  .footer-modal-right ul{ right:25px; bottom:25px; position:fixed}
+  .footer-modal-right li{ display:inline; margin-left:10px}
+  .footer-modal-right a{ color:#000;  opacity:0.7}
+  .footer-modal-right a:hover{ text-decoration:none; opacity:1}
+  .footer-modal-right a:hover i{ margin-left:10px}
+
+}
+@media (min-width: 750px) {
+  .text{}
+  .bg-set h1{}
+  .banner-set{ height:800px}
+
+  .heder-modal-right{ margin:25px 10px 0 0}
+
+  .modal-dialog { position: initial; margin-top: 0; margin-bottom:0; height: 100%; padding: 0;}
+  .midle-modal-right{ top:45%; bottom:45%; position:fixed; padding:0 45px 0 20px}
+  .midle-modal-right h3{ margin-bottom:20px}
+  .midle-modal-right p{ text-align:justify; margin-bottom:20px}
+  .midle-modal-right a{color:#000;  opacity:0.7}
+  .midle-modal-right a:hover{text-decoration:none; opacity:1}
+  .midle-modal-right a:hover span{ margin-left:10px}
+
+  .footer-modal-right ul{ right:25px; bottom:25px; position:fixed}
+  .footer-modal-right li{ display:inline; margin-left:10px}
+  .footer-modal-right a{ color:#000;  opacity:0.7}
+  .footer-modal-right a span{ margin-left:10px}
+  .footer-modal-right a:hover{ text-decoration:none; opacity:1;}
+  .footer-modal-right a:hover span{ margin-left:15px}
+}
+@media (min-width: 1000px) {
+  .bg-set h1{font-size:56px}
+
+}
