@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Grid, Row, Col } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/src/sass/aos.scss';
 
@@ -12,15 +13,15 @@ class About extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="row mt80">
-          <div className="col-sm-12 mt40">
+      <Grid>
+        <Row className={`mt80`}>
+          <Col sm={12} className={`mt40`}>
             <h3 className="text-center">ABOUT ME</h3>
-          </div>
-        </div>
-        <div className="row mt40">
-          <div className="col-sm-6 text">
-            <p data-aos="slide-up">
+          </Col>
+        </Row>
+        <Row className={`mt40`}>
+          <Col className="text" data-aos="slide-up">
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
               ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
@@ -28,13 +29,13 @@ class About extends Component {
               vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
               dolore te feugait nulla facilisi.
             </p>
-            <p data-aos="slide-up">
+            <p>
               Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
               ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
             </p>
 
-            <p data-aos="slide-up">
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
               ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
@@ -42,19 +43,19 @@ class About extends Component {
               vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
               dolore te feugait nulla facilisi.
             </p>
-            <p data-aos="slide-up">
+            <p>
               Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
               ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
             </p>
-            <p data-aos="slide-up">
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wis
             </p>
-          </div>
+          </Col>
 
-          <div className="col-sm-6 text">
-            <p data-aos="slide-down">
+          <Col className="text" data-aos="slide-down">
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
               ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
@@ -62,12 +63,12 @@ class About extends Component {
               vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
               dolore te feugait nulla facilisi.
             </p>
-            <p data-aos="slide-down">
+            <p>
               Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
               ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
             </p>
-            <p data-aos="slide-down">
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
               ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
@@ -75,17 +76,17 @@ class About extends Component {
               vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
               dolore te feugait nulla facilisi.
             </p>
-            <p data-aos="slide-down">
+            <p>
               Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
               ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-            <p data-aos="slide-down">
+            <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wis
             </p>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Grid>
     );
   }
 }

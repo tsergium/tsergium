@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Playfair+Display');
+
 * { margin: 0; padding: 0; }
 a { text-decoration: none; }
 img { border: none; }
@@ -15,13 +17,13 @@ h1, h2, h3 {font-family: 'Roboto', sans-serif; position:relative; padding:0; mar
 /*set*/
 h3{font-size:36px; margin:40px 0 0 0}
 
-
-
 .i4ewOd-pzNkMb-haAclf{ display:none}
 .mt-100{margin-top: -100px}
 .mt-140{margin-top: -140px}
+.mt10{ margin-top: 10px}
 .mt15{ margin-top: 15px}
 .mt20{ margin-top: 20px}
+.mt30{ margin-top: 30px}
 .mt40{ margin-top: 40px}
 .mt60{ margin-top: 60px}
 .mt80{ margin-top: 80px}
@@ -88,7 +90,8 @@ h3{font-size:36px; margin:40px 0 0 0}
 .contact .form-control{ border-left:none; border-right:none; border-top:none; background:none; box-shadow:none; border-radius:0}
 .contact .bt-contact{ border:none; background-color:#333; color:#f3f3f3; padding:6px 10px }
 .contact textarea{resize: none}
-
+.contact a{color:#000; opacity:0.7; cursor:pointer}
+.contact a:hover{ opacity:1; text-decoration:none}
 
 /*syntaxhighlighter*/
 .syntaxhighlighter .string{ color:#16B8E4}
@@ -131,6 +134,13 @@ h3{font-size:36px; margin:40px 0 0 0}
 .media-object{ height:65px; width:65px; margin-right:10px}
 .media-heading{ font-weight:bold}
 .media-heading span{ font-size:14px; font-weight:lighter; padding-left:5px}
+
+.coment-form input{ border-radius:0; border-left:none; border-top:none; border-right:none; box-shadow:none; padding:0}
+.coment-form textarea{ border-radius:0; border-left:none; border-top:none; border-right:none; box-shadow:none; resize: none; padding-left:0}
+
+.bt-coment{ border:none; color:#fff; background-color:#333; padding:6px 12px}
+
+
 
 @media (max-width: 750px) {
   .portofolio{ margin-top:40px}
