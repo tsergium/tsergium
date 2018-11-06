@@ -3,6 +3,24 @@ import Link from 'next/link';
 const name = 'Tomșa - Sergiu';
 
 class Navigation extends Component {
+  constructor(props) {
+    super(props);
+
+    this.handleCollapsed = this.handleCollapsed.bind(this);
+
+    this.state = {
+      collapsed: 'collapsed',
+      in: '',
+    }
+  }
+
+  handleCollapsed() {
+    this.setState({
+      collapsed: !this.state.collapsed ? 'collapsed' : '',
+      in: !this.state.in ? 'in' : '',
+    })
+  }
+
   render() {
     return (
       <nav className="navbar navbar-default navbar-fixed-top">
@@ -10,10 +28,11 @@ class Navigation extends Component {
           <div className="navbar-header">
             <button
               type="button"
-              className="navbar-toggle collapsed"
+              className={`navbar-toggle ${this.state.collapsed}`}
               data-toggle="collapse"
               data-target="#bs-example-navbar-collapse-1"
               aria-expanded="false"
+              onClick={this.handleCollapsed}
             >
               <span className="sr-only">Toggle navigation</span>
               <span className="icon-bar" />
@@ -27,7 +46,7 @@ class Navigation extends Component {
             </p>
           </div>
           <div
-            className="collapse navbar-collapse"
+            className={`collapse navbar-collapse ${this.state.in}`}
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
