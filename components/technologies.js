@@ -8,7 +8,7 @@ class Technologies extends Component {
           <div className="container content">
             <div className="row">
               <div className="col-sm-12">
-                <h3 className="text-center">TEHNOLOGI FOLOSITE</h3>
+                <h3 className="text-center">Technologies and tools</h3>
               </div>
             </div>
             <div className="row mt40 mb40">

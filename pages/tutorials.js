@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 
 class Tutorials extends Component {
   static async getInitialProps () {
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmMwYWQzNDA5MWI2MTYxZDVhOTYyNWMiLCJpYXQiOjE1Mzk5NTAwMDMsImV4cCI6MTU0MjU0MjAwM30.azJYptrKp0Hx31cCZ4xduPSDHIi4C5XF05PRmrtkblM";
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YmMwYWQzNDA5MWI2MTYxZDVhOTYyNWMiLCJpYXQiOjE1NDM1MDY4MjAsImV4cCI6MTU0NjA5ODgyMH0.Uk20zgu68tPczmOnFXmnnidkl8m2_DYTKIvUJIzNfiE";
     const res = await fetch(
       'http://localhost:1337/tutorials',
       {

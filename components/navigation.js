@@ -7,10 +7,12 @@ class Navigation extends Component {
     super(props);
 
     this.handleCollapsed = this.handleCollapsed.bind(this);
+    this.handleDropdown = this.handleDropdown.bind(this);
 
     this.state = {
       collapsed: 'collapsed',
       in: '',
+      dropDownOpen: '',
     }
   }
 
@@ -18,7 +20,13 @@ class Navigation extends Component {
     this.setState({
       collapsed: !this.state.collapsed ? 'collapsed' : '',
       in: !this.state.in ? 'in' : '',
-    })
+    });
+  }
+
+  handleDropdown() {
+    this.setState({
+      dropDownOpen: !this.state.dropDownOpen ? 'open' : '',
+    });
   }
 
   render() {
@@ -60,9 +68,10 @@ class Navigation extends Component {
                   <a href="/porfolio">Portfolio</a>
                 </Link>
               </li>
-              <li className="dropdown">
+              <li className={`dropdown ${this.state.dropDownOpen}`}>
                 <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                   aria-expanded="false">Tutorials <span className="caret"></span></a>
+                   onClick={this.handleDropdown}
+                   >Tutorials <span className="caret"></span></a>
                 <ul className="dropdown-menu">
                   <li><a href="tutorial.php">PHP CRUD Tutorial for Beginners</a></li>
                 </ul>
