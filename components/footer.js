@@ -12,13 +12,16 @@ class Footer extends Component {
               <h4>Contact</h4>
               <form method={`post`}>
                 <div className="form-group">
-                  <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Name" />
+                  <span id="labelInputPassword1" className="hide">Name</span>
+                  <input type="text" aria-labelledby="labelInputPassword1" className="form-control" id="inputPassword" placeholder="Name" />
                 </div>
                 <div className="form-group">
-                  <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Email" />
+                  <span id="labelInputEmail1" className="hide">Email</span>
+                  <input type="email" aria-labelledby="labelInputEmail1" className="form-control" id="inputEmail" placeholder="Email" />
                 </div>
                 <div className="form-group">
-                  <textarea className="form-control" rows="3" placeholder="Mesage" />
+                  <span id="labelInputMessage" className="hide">Message</span>
+                  <textarea aria-labelledby="labelInputMessage" className="form-control" rows="3" id="inputMessage" placeholder="Message" />
                 </div>
                 <button type="submit" className="bt-contact">Submit</button>
               </form>
@@ -31,9 +34,15 @@ class Footer extends Component {
                     <i className="fas fa-envelope" /> Email Tomșa Sergiu
                   </a>
                 </li>
-                <li><a href="https://github.com/tsergium" target="_blank"><i className="fab fa-github-square" /> Github Tomșa Sergiu</a></li>
-                <li className="mt10"><a href="https://www.linkedin.com/in/tsergium/" target="_blank"><i className="fab fa-linkedin" /> Linkedin Tomșa Sergiu</a></li>
-                <li><a href="https://www.facebook.com/tsergium" target="_blank"><i className="fab fa-facebook" /> Facebook Tomșa Sergiu</a></li>
+                <li>
+                  <a href="https://github.com/tsergium" target="_blank" rel="noopener"><i className="fab fa-github-square" /> Github Tomșa Sergiu</a>
+                </li>
+                <li className="mt10">
+                  <a href="https://www.linkedin.com/in/tsergium/" target="_blank" rel="noopener"><i className="fab fa-linkedin" /> Linkedin Tomșa Sergiu</a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/tsergium" target="_blank" rel="noopener"><i className="fab fa-facebook" /> Facebook Tomșa Sergiu</a>
+                </li>
               </ul>
               <div className="copyright">
                 <p className="mt20"><span className="strong">Copyright © {year}</span> Tomșa Sergiu</p>

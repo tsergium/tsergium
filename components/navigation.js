@@ -64,8 +64,8 @@ class Navigation extends Component {
                 </Link>
               </li>
               <li>
-                <Link prefetch href='/porfolio'>
-                  <a href="/porfolio">Portfolio</a>
+                <Link prefetch href='/portfolio'>
+                  <a href="/portfolio">Portfolio</a>
                 </Link>
               </li>
               <li className={`dropdown ${this.state.dropDownOpen}`}>
