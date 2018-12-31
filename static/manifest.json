@@ -4,7 +4,7 @@
   "start_url" : "https://tsergium.ro/",
   "display" : "fullscreen",
   "theme_color" : "#673ab7",
-  "background_color" : "#EEE",
+  "background_color" : "#ffffff",
   "lang" : "en",
   "orientation" : "portrait",
   "icons": [
@@ -97,11 +97,6 @@
     {
       "src": "img/launch-image-ios-1536x2048.png",
       "sizes": "1536x2048",
-      "type": "image/png"
-    },
-    {
-      "src": "img/launch-image-ios-2048x1536.png",
-      "sizes": "2048x1536",
       "type": "image/png"
     },
     {
