@@ -8,8 +8,10 @@ class Navigation extends Component {
 
     this.handleCollapsed = this.handleCollapsed.bind(this);
     this.handleDropdown = this.handleDropdown.bind(this);
+    this.renderMenu = this.renderMenu.bind(this);
 
     this.state = {
+      showMenu: false,
       collapsed: 'collapsed',
       in: '',
       dropDownOpen: '',
@@ -27,6 +29,45 @@ class Navigation extends Component {
     this.setState({
       dropDownOpen: !this.state.dropDownOpen ? 'open' : '',
     });
+  }
+
+  renderMenu() {
+    if (!this.state.showMenu) {
+      return false;
+    }
+
+    return (
+      <div
+        className={`collapse navbar-collapse ${this.state.in}`}
+        id="bs-example-navbar-collapse-1"
+      >
+        <ul className="nav navbar-nav navbar-right">
+          <li>
+            <Link prefetch href='/about'>
+              <a href="/about">About me</a>
+            </Link>
+          </li>
+          <li>
+            <Link prefetch href='/portfolio'>
+              <a href="/portfolio">Portfolio</a>
+            </Link>
+          </li>
+          <li className={`dropdown ${this.state.dropDownOpen}`}>
+            <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+               onClick={this.handleDropdown}
+            >Tutorials <span className="caret"></span></a>
+            <ul className="dropdown-menu">
+              <li><a href="tutorial.php">PHP CRUD Tutorial for Beginners</a></li>
+            </ul>
+          </li>
+          <li>
+            <Link prefetch href='/contact'>
+              <a href="/contact">CONTACT</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
+    );
   }
 
   render() {
@@ -53,36 +94,7 @@ class Navigation extends Component {
               </Link>
             </p>
           </div>
-          <div
-            className={`collapse navbar-collapse ${this.state.in}`}
-            id="bs-example-navbar-collapse-1"
-          >
-            <ul className="nav navbar-nav navbar-right">
-              <li>
-                <Link prefetch href='/about'>
-                  <a href="/about">About me</a>
-                </Link>
-              </li>
-              <li>
-                <Link prefetch href='/portfolio'>
-                  <a href="/portfolio">Portfolio</a>
-                </Link>
-              </li>
-              <li className={`dropdown ${this.state.dropDownOpen}`}>
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                   onClick={this.handleDropdown}
-                   >Tutorials <span className="caret"></span></a>
-                <ul className="dropdown-menu">
-                  <li><a href="tutorial.php">PHP CRUD Tutorial for Beginners</a></li>
-                </ul>
-              </li>
-              <li>
-                <Link prefetch href='/contact'>
-                  <a href="/contact">CONTACT</a>
-                </Link>
-              </li>
-            </ul>
-          </div>
+          {this.renderMenu()}
         </div>
       </nav>
     );

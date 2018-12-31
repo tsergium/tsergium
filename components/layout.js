@@ -5,7 +5,6 @@ import Header from './header';
 import Footer from './footer';
 import '../assets/style.scss';
 
-
 const Layout = (props) => (
   <Grid fluid>
     <Row>
@@ -17,6 +16,7 @@ const Layout = (props) => (
         <title>Sergiu Tomsa | tsergium.ro</title>
         <meta name="description" content="Tomsa Sergiu, Senior Software Engineer" />
         <meta name="theme-color" content="#317EFB"/>
+        <meta name="p:domain_verify" content="7250a8b658b7c7a835cd418249e3a3fd"/>
         <link rel="manifest" href="/static/manifest.json" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
               integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
