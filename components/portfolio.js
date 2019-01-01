@@ -31,10 +31,6 @@ class Portfolio extends Component {
           </div>
           <div className="col-sm-4">
             <a href="#" title="portfolio item 3" target="_blank">
-              <img
-              src="/static/dashkit-1.3.0-600x450.png" alt=""
-              className="img-responsive portofolio"
-              />
               <Img
                 src="/static/dashkit-1.3.0-600x450.png"
                 webp="/static/dashkit-1.3.0-600x450.webp"
